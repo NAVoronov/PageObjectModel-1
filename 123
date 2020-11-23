@@ -1,0 +1,16 @@
+
+D:\stepik\selenium\selenium_env\py_scripts\PageObjectModel>pytest -v --tb=line --language=en test_main_page.py 
+============================= test session starts =============================
+platform win32 -- Python 3.8.2, pytest-5.4.3, py-1.9.0, pluggy-0.13.1 -- c:\program files\python38\python.exe
+cachedir: .pytest_cache
+rootdir: D:\stepik\selenium\selenium_env\py_scripts\PageObjectModel
+collecting ... collected 2 items
+
+test_main_page.py::test_guest_can_go_to_login_page PASSED                [ 50%]
+test_main_page.py::test_guest_should_see_login_link FAILED               [100%]
+
+================================== FAILURES ===================================
+C:\Users\MisterN\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\errorhandler.py:242: selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#login_link_invalid"}
+=========================== short test summary info ===========================
+FAILED test_main_page.py::test_guest_should_see_login_link - selenium.common....
+========================= 1 failed, 1 passed in 9.00s =========================
