@@ -1,0 +1,15 @@
+============================= test session starts =============================
+platform win32 -- Python 3.8.2, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: D:\stepik\selenium\selenium_env\py_scripts\PageObjectModel
+collected 1 item
+
+test_product_page.py 
+start browser for test..
+кнопка добавления товара в корзину на месте !
+Your code: Поздравляем, вы справились! Вставьте это число в поле ответа на Stepik: 27.240338719396487
+Есть удачное добавление товара в корзину !
+.
+quit browser..
+
+
+============================== 1 passed in 8.17s ==============================
