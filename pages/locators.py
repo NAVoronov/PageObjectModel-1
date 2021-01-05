@@ -21,3 +21,6 @@ class ProductPageLocators():
 	BOOK_NAME = (By.CSS_SELECTOR, ".product_main h1") # название книги .col-sm-6.product_main >h1	
 	cart_BOOK_NAME = (By.CSS_SELECTOR, ".alertinner strong") # название добавленной книги в .alertinner strong
 
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
